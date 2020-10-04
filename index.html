@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<head>
+
+    <style>
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display:block;
+            margin:auto;
+        }
+
+        input {
+            border-radius: 30px;
+            border: 1px solid #dadada;
+            display: block;
+            margin: auto;
+            width: 70%;
+            padding: 15px 15px 15px 25px;
+        }
+
+        input:hover {
+            box-shadow: 
+                0 2px 4px 0 rgba(161, 161, 161, 0.24), 
+                0 4px 7px 0 rgba(165, 165, 165, 0.19);
+        }
+
+        input:focus {
+            outline: none;
+            box-shadow: 
+                0 2px 4px 0 rgba(161, 161, 161, 0.24), 
+                0 4px 7px 0 rgba(165, 165, 165, 0.19);
+        }
+
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color:rgb(242, 242, 242);
+            border-top: 1px solid rgb(228, 228, 228);
+            padding: 15px 10px 15px 10px;
+        }
+
+        .logo {
+            margin-top: 100px;
+            margin-bottom: 40px;
+        }
+
+        .menu-nav {
+            margin-top: 20px;
+        }
+
+        .menu-button {
+            display: inline-block;
+            margin: 5px 10px 5px 10px;
+        }
+
+        .menu-button-right {
+            position: relative;
+            display: block;
+            float: right;
+        }
+
+        .menu-link {
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 14px;
+            color: rgb(67, 67, 67);
+        }
+
+        .main-button-div {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .main-buttons {
+            padding: 10px 20px 10px 20px;
+            border: 0px;
+            border-radius: 5px;
+            color: rgb(75, 75, 75);
+        }
+
+        .sign-in {
+            padding: 5px 10px 5px 10px;
+            border: 0px;
+            border-radius: 2px;
+            color: white;
+            background-color: rgb(81, 136, 240);
+            font-weight: bold
+        }
+
+        .main-buttons:hover {
+            border: 1px solid rgb(187, 187, 187);
+        }
+
+        .sign-in:hover {
+            box-shadow:
+              0 1px 2px 0 rgb(107, 107, 255);
+        }
+
+        .divider {
+            width: 10px;
+            height: auto;
+            display: inline-block;
+        }
+
+        .footer-link {
+            color:rgb(131, 133, 137);
+            text-decoration: none;
+            margin: 0px 10px 0px 10px;
+            font-family: Arial;
+            font-size: 15px;
+        }
+
+        .footer-right {
+            position: relative;
+            display: block;
+            float: right;
+        }
+
+        .div-footer-left {
+            margin-left: 30px;
+        }
+
+        .div-footer-right {
+            position: relative;
+            display: block;
+            float: right;
+            margin-right: 30px;
+        }
+
+    </style>
+
+    <body> 
+        <nav class="menu-nav">
+            <div class="menu-button"><a href="" class="menu-link">About</a></div>
+            <div class="menu-button"><a href="" class="menu-link">Store</a></div>
+            <div class="menu-button menu-button-right"><a href=""><button class="sign-in">Sign in</button></a></div>
+            <div class="menu-button menu-button-right"><a href="" class="menu-link">Images</a></div>
+            <div class="menu-button menu-button-right"><a href="" class="menu-link">Gmail</a></div>
+        </nav>
+
+        <div class="logo">
+            <img src="googlelogo_color_272x92dp.png"/>
+        </div>
+        <form>
+            <input type="text" placeholder="&#128269;"/>
+            <div class="main-button-div">
+                <button type="submit" class="main-buttons">Google Search</button>
+                <div class="divider"></div>
+                <button type="submit" class="main-buttons">I'm Feeling Lucky</button>
+            </div>
+        </form>
+    </body>
+
+    <footer>
+        <nav>
+            <a href="" class="footer-link">Advertising</a>
+            <a href="" class="footer-link">Business</a>
+            <a href="" class="footer-link">How Search works</a>
+            <div class="div-footer-right">&nbsp</div>
+            <div class="footer-right"><a href="" class="footer-link">Settings</a></div>
+            <div class="footer-right"><a href="" class="footer-link">Terms</a></div>
+            <div class="footer-right"><a href="" class="footer-link">Privacy</a></div>
+        </nav>
+    </footer>
+</head>
